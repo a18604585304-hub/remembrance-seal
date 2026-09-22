@@ -1,26 +1,39 @@
 # Founding circuit: ALLOW-ONCE Remembrance Gate
 
+**Status:** taped out on X Layer  
+**Circuit ID:** `#1`  
+**Processor:** `0x0dba1bcb8abdc1be2a0a2f9d9ddc745f32297239`  
+**Tx:** `0xa2999e72f48727f8682d1848f3141aa7f4e69c7aad00c749881f7f0ce3a82f24`  
+**Page:** https://tapeout.net/#l2account/xlayer/0x0dba1bcb8abdc1be2a0a2f9d9ddc745f32297239/1
+
 ## Intent
-Smallest circuit that still expresses the product metaphor:
-> A permission that can be sealed into memory.
 
-## Canvas build (MVP)
+A permission that can be sealed into memory:
 
-1. Place **2 Inputs**: `intent`, `arm`
-2. Place **1 NAND** (or equivalent composite) combining them
-3. Optional: place **1 LATCH** to express remembered state
-4. Place **1 Output**: `remembered_allow`
-5. Wire:
-   - `intent` + `arm` → logic → (`LATCH`) → `remembered_allow`
-6. Simulate off-chain until output behaves as expected
-7. Select processor **Remembrance Seal** on **X Layer**
-8. Tape Out (burns transistors; mints Circuit NFT)
+> Once `intent` and `arm` are both true, the output stays true.
 
-## Naming on-chain / in UI
-- Circuit title: `ALLOW-ONCE`
-- Story tag: `founding remembrance gate for Agent seal`
+## Pins
 
-## Success criteria
-- Circuit appears under Remembrance Seal processor
-- Explorer / TapeOut page shows ≥1 circuit
-- Demo script can point at it in <60 seconds
+| | |
+|--|--|
+| nIn | 2 (`intent`, `arm`) |
+| nOut | 1 (`remembered_allow`) |
+| nState | 1 (D-latch) |
+| gateCount | 8 (7 NAND + 1 LATCH) |
+
+## Logic
+
+```text
+and = AND(intent, arm)           // NAND then NOT
+d   = OR(q, and)
+q   = LATCH(d)                   // remembrance
+out = identity(q)                // official double-NOT output buffer
+```
+
+Burned: 7 NAND transistors + 1 LATCH transistor from the Agent wallet.
+
+## Metaphor
+
+- `intent` = the Agent wants to act
+- `arm` = the seal press is armed
+- latched `1` = the permission has been remembered and cannot be silently forgotten

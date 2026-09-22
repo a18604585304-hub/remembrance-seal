@@ -40,7 +40,9 @@ If selected toward Genesis, vault release / buyback / dividends can hang on seal
 - Deployer wallet: 0xa66f492F6f4A5a2B028F18355B63ce240940E0E5
 - Create tx: 0x7dac2ac458781780d1786811486a425f36aaa76a97d21417696fba285f47659c
 - TapeOut page: https://tapeout.net/#l2/xlayer/0x0dba1bcb8abdc1be2a0a2f9d9ddc745f32297239
-- Circuit: TBD (next step: tape ALLOW-ONCE)
+- Circuit #1 ALLOW-ONCE: https://tapeout.net/#l2account/xlayer/0x0dba1bcb8abdc1be2a0a2f9d9ddc745f32297239/1
+- Tapeout tx: 0xa2999e72f48727f8682d1848f3141aa7f4e69c7aad00c749881f7f0ce3a82f24
+- Spec: 2-in / 1-out / 1 latch / 8 gates. Q latches OR(Q, AND(intent, arm)) — once allowed, remembered.
 
 ## X Account
 @blmario669
