@@ -139,22 +139,25 @@ Remembrance Seal is the missing manufacturing / governance layer for those Agent
 
 ## Hackathon checklist
 
-- [ ] Processor deployed on X Layer via TapeOut factory
-- [ ] Supply + unit price disclosed at deployment
+- [x] Processor deployed on X Layer via TapeOut factory
+- [x] Supply + unit price disclosed at deployment
 - [ ] ≥1 circuit taped out (`ALLOW-ONCE`)
-- [ ] Clear use case (Seal Stack)
+- [x] Clear use case (Seal Stack)
 - [ ] Public GitHub + demo + X announcement
 - [ ] Google Form submitted
 
-### Addresses (fill after deploy)
+### Addresses
 
 | Field | Value |
 |-------|-------|
 | Project Name | Remembrance Seal |
 | Symbol | SEAL |
-| Processor contract | `_TBD_` |
-| Deployer wallet | `0xa66f492f6f4a5a2b028f18355b63ce240940e0e5` |
-| TapeOut page | `_TBD_` |
+| Processor (circuits) | `0x0dba1bcb8abdc1be2a0a2f9d9ddc745f32297239` |
+| Transistors | `0x786759759B9483F54D903A0c95901fef5b89CD49` |
+| Deployer / Agent wallet | `0xa66f492F6f4A5a2B028F18355B63ce240940E0E5` |
+| Create tx | `0x7dac2ac458781780d1786811486a425f36aaa76a97d21417696fba285f47659c` |
+| TapeOut page | https://tapeout.net/#l2/xlayer/0x0dba1bcb8abdc1be2a0a2f9d9ddc745f32297239 |
+| Explorer | https://www.oklink.com/xlayer/tx/0x7dac2ac458781780d1786811486a425f36aaa76a97d21417696fba285f47659c |
 | Circuit | `_TBD_` |
 | GitHub | https://github.com/a18604585304-hub/remembrance-seal |
 | X | @blmario669 |

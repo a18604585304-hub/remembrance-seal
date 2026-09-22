@@ -34,10 +34,13 @@ If selected toward Genesis, vault release / buyback / dividends can hang on seal
 - Public GitHub: https://github.com/a18604585304-hub/remembrance-seal
 - Public X announcement
 
-### Addresses (fill after deploy)
-- Processor contract: TBD
-- Deployer wallet: 0xa66f492f6f4a5a2b028f18355b63ce240940e0e5
-- Circuit / TapeOut page: TBD
+### Addresses
+- Processor contract (circuits): 0x0dba1bcb8abdc1be2a0a2f9d9ddc745f32297239
+- Transistors: 0x786759759B9483F54D903A0c95901fef5b89CD49
+- Deployer wallet: 0xa66f492F6f4A5a2B028F18355B63ce240940E0E5
+- Create tx: 0x7dac2ac458781780d1786811486a425f36aaa76a97d21417696fba285f47659c
+- TapeOut page: https://tapeout.net/#l2/xlayer/0x0dba1bcb8abdc1be2a0a2f9d9ddc745f32297239
+- Circuit: TBD (next step: tape ALLOW-ONCE)
 
 ## X Account
 @blmario669
