@@ -2,43 +2,44 @@
 
 ## Goal
 
-Show that this is not a empty meme processor: it is an **Agent permission seal factory** with at least one irreversible Remembrance Gate taped out on X Layer.
+Show a live **seal factory**, not an empty meme processor:  
+OKX.AI Agent permission infrastructure with at least one irreversible Remembrance Gate on X Layer.
 
 ## Cast
 
-- **Processor:** Remembrance Seal
-- **Bound Agent narrative:** OKX.AI ASP identities owned by the same operator wallet  
-  (e.g. Market Signal Desk / Codex Evidence Lab — one-person company stack)
-- **Founding circuit:** `ALLOW-ONCE` Remembrance Gate
+- **Processor:** Remembrance Seal (`SEAL`)
+- **Stack:** Agent Seal × Remembrance Gate (MVP) + Mood / Dead Man (extensions)
+- **Bound Agents:** Market Signal Desk `#4515`, Codex Evidence Lab `#3359`
+- **Founding circuit:** `ALLOW-ONCE`
 
-## Demo flow (3 minutes)
+## 3-minute flow
 
-### 1. Open the processor page (30s)
-1. Visit the TapeOut X Layer project page for Remembrance Seal.
-2. Point out: chain = X Layer, supply = 88,888, mint price = 0.000066 OKB.
-3. Say the line: *“Transistors here are seal blanks, not casino chips.”*
+### 1. Processor page (30s)
+Open the X Layer project page. Point out:
+- supply **88,888**
+- mint **0.000066 OKB**
+- line: *“Transistors here are seal blanks, not casino chips.”*
 
-### 2. Explain the Agent link (45s)
-1. Show OKX.AI Agent identity (ASP) under the same operator story.
-2. Explain: sensitive Agent actions should require a sealed Remembrance Gate.
-3. Example: before auto-copy / withdraw / publish, require gate output = ALLOW.
+### 2. Agent link (45s)
+Show OKX.AI ASP identity under the same operator wallet.  
+Sensitive Agent actions should require a sealed Remembrance Gate.
 
-### 3. Show the founding tape-out (60s)
-1. Open canvas / circuit detail for the taped Remembrance Gate.
-2. Walk inputs → NAND/LATCH path → remembered output.
-3. Emphasize irreversibility: tape-out burns transistors and mints a permanent Circuit NFT on this processor.
+### 3. Founding tape-out (60s)
+Open `ALLOW-ONCE`. Walk `intent` + `arm` → logic → `remembered_allow`.  
+Tape-out burns transistors and mints a permanent Circuit NFT.
 
-### 4. Ignix Genesis angle (30s)
-1. If selected as Genesis Transistor path, Ignix vault mechanics can key off sealed gates.
-2. Permission memory becomes vault policy, not admin multisig theater.
+### 4. Seal Stack (30s)
+Same press, later imprints:
+- Mood = policy states for Ignix vault
+- Dead Man = heartbeat insurance
 
 ### 5. Close (15s)
 > Remembrance Seal turns TapeOut manufacturing into Agent governance infrastructure.
 
-## Evidence checklist for reviewers
+## Evidence
 
-- [ ] Processor contract on X Layer explorer
-- [ ] ≥1 circuit taped under this processor
-- [ ] Public GitHub with architecture + economics
-- [ ] Google Form submission completed
-- [ ] Public X announcement link
+- [ ] Processor on X Layer explorer
+- [ ] ≥1 circuit under this processor
+- [ ] GitHub architecture + economics
+- [ ] Google Form submitted
+- [ ] Public X announcement
