@@ -144,7 +144,7 @@ Remembrance Seal is the missing manufacturing / governance layer for those Agent
 - [x] ≥1 circuit taped out (`ALLOW-ONCE`, circuit #1)
 - [x] Clear use case (Seal Stack)
 - [ ] Public GitHub + demo + X announcement
-- [ ] Google Form submitted
+- [x] Google Form submitted (Telegram @blmario; X post link can be added later)
 
 ### Addresses
 

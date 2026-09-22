@@ -48,10 +48,10 @@ If selected toward Genesis, vault release / buyback / dividends can hang on seal
 @blmario669
 
 ## Telegram
-(TBD)
+@blmario
 
 ## Contact Email
-842105620@qq.com
+a18604585304@gmail.com
 
 ## GitHub Repository
 https://github.com/a18604585304-hub/remembrance-seal
