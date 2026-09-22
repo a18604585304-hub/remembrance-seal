@@ -37,9 +37,9 @@ L3  Dead Man Switch     a specialized imprint  heartbeat timeout → lock / burn
 | Layer | Original idea | Role in the product | Hackathon delivery |
 |-------|---------------|---------------------|--------------------|
 | **L4** | Agent Seal | Who the factory belongs to | Bind existing OKX.AI ASP Agents |
-| **L1** | Remembrance Gate | Nature of every imprint | **Must tape `ALLOW-ONCE`** |
-| **L2** | Mood ASIC | Strategy imprint | Spec + optional later circuit |
-| **L3** | Dead Man Switch | Insurance imprint | Spec + optional later circuit |
+| **L1** | Remembrance Gate | Nature of every imprint | **Taped `ALLOW-ONCE` (#1 / 1.2.183)** |
+| **L2** | Mood ASIC | Strategy imprint | Spec; not taped in this window |
+| **L3** | Dead Man Switch | Insurance imprint | **Taped `DEADMAN` (#2)** |
 
 Ignix Genesis angle: if this transistor becomes Genesis-adjacent, vault release / buyback / dividend routing can key off **sealed circuit outputs**, not admin keys.
 
@@ -59,8 +59,8 @@ The same seal can later carry two specialized imprints:
 - **Mood** — encode FOMO/FEAR as callable policy states for Ignix vaults
 - **Dead Man** — if heartbeat stops, output flips and funds lock / burn / enter vault
 
-Hackathon window: a live factory + founding Remembrance Gate.  
-Mood and Dead Man are protocol extensions, not a second project.
+Hackathon window: a live factory + founding Remembrance Gate + Dead Man imprint.  
+Mood remains a protocol extension, not a second project.
 
 ---
 
@@ -76,9 +76,9 @@ Remembrance Seal Processor  (TapeOut · X Layer)
         │
         └── tape out circuit  →  Seal Imprint (Circuit NFT)
                 │
-                ├── ALLOW-ONCE   (founding Remembrance Gate)
-                ├── MOOD-*       (optional strategy imprint)
-                └── DEADMAN-*    (optional insurance imprint)
+                ├── ALLOW-ONCE   (founding Remembrance Gate, #1)
+                ├── DEADMAN      (insurance imprint, #2)
+                └── MOOD-*       (optional strategy imprint)
                         │
                         └── Future: Ignix vault release condition
 ```
@@ -158,9 +158,12 @@ Remembrance Seal is the missing manufacturing / governance layer for those Agent
 | Create tx | `0x7dac2ac458781780d1786811486a425f36aaa76a97d21417696fba285f47659c` |
 | TapeOut page | https://tapeout.net/#l2/xlayer/0x0dba1bcb8abdc1be2a0a2f9d9ddc745f32297239 |
 | Explorer | https://www.oklink.com/xlayer/tx/0x7dac2ac458781780d1786811486a425f36aaa76a97d21417696fba285f47659c |
-| Circuit | `#1 ALLOW-ONCE` — TapeID **1.2.183** (2-in / 1-out / 1 latch, 8 gates) |
-| Circuit page | https://tapeout.net/#l2account/xlayer/0x0dba1bcb8abdc1be2a0a2f9d9ddc745f32297239/1 |
-| Tapeout tx | `0xa2999e72f48727f8682d1848f3141aa7f4e69c7aad00c749881f7f0ce3a82f24` |
+| Circuit #1 | `ALLOW-ONCE` — TapeID **1.2.183** (2-in / 1-out / 1 latch, 8 gates) |
+| Circuit #1 page | https://tapeout.net/#l2account/xlayer/0x0dba1bcb8abdc1be2a0a2f9d9ddc745f32297239/1 |
+| Circuit #1 tx | `0xa2999e72f48727f8682d1848f3141aa7f4e69c7aad00c749881f7f0ce3a82f24` |
+| Circuit #2 | `DEADMAN` heartbeat gate (2-in / 1-out / 1 latch, 8 gates) |
+| Circuit #2 page | https://tapeout.net/#l2account/xlayer/0x0dba1bcb8abdc1be2a0a2f9d9ddc745f32297239/2 |
+| Circuit #2 tx | `0xd4fd8467445d3a046fef190eff3851c52e6cb324dee1b094f13b9a701948e146` |
 | GitHub | https://github.com/a18604585304-hub/remembrance-seal |
 | X | @blmario669 |
 
