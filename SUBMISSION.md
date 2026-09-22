@@ -4,46 +4,52 @@
 Remembrance Seal
 
 ## Project Description
-Remembrance Seal is an X Layer TapeOut processor that treats transistors as **Agent authority units**, not speculative chips.
 
-It combines two ideas:
-1. **Agent Seal** — a seal press for OKX.AI one-person companies (ASP Agents).
-2. **Remembrance Gate** — each taped-out circuit is an irreversible ALLOW/DENY permission memory.
+Remembrance Seal is a TapeOut processor on X Layer: an on-chain **seal factory** for OKX.AI one-person companies.
+
+Most processors mint transistors to speculate. We mint them to authorize.
+
+### Product (one stack, four layers)
+- **Agent Seal (L4):** who uses the press — our existing OKX.AI ASP Agents (Market Signal Desk #4515, Codex Evidence Lab #3359) under operator `0xa66f492f6f4a5a2b028f18355b63ce240940e0e5`.
+- **Remembrance Gate (L1):** what a seal means — each taped-out circuit is an irreversible ALLOW/DENY permission memory (Circuit NFT).
+- **Mood ASIC (L2, extension):** a specialized imprint encoding FOMO / FEAR / HOLD / EXIT for vault policy.
+- **Dead Man Switch (L3, extension):** a specialized imprint — missed heartbeat flips output → lock / burn / route to vault.
+
+Hackathon delivery is the live factory + founding circuit `ALLOW-ONCE`. Mood and Dead Man are the same protocol's specialized imprints, not a second project.
 
 ### Why it matters for Ignix × TapeOut
-Ignix is preparing Genesis Transistor vault mechanics. Remembrance Seal proposes the missing permission primitive: vaults and Agents can key sensitive actions off sealed Circuit NFTs manufactured on TapeOut, instead of mutable admin switches.
+Ignix is preparing Genesis Transistor vault mechanics. Remembrance Seal proposes the missing permission primitive: vaults and Agents key sensitive actions off **manufactured Circuit NFTs**, not mutable admin switches.
+
+If selected toward Genesis, vault release / buyback / dividends can hang on sealed gate output = true.
 
 ### On-chain parameters
 - Chain: X Layer
+- Name / symbol: Remembrance Seal / SEAL
 - Transistor supply: 88,888
-- Mint price: 0.000066 OKB / transistor
-- Parameters immutable after deployment
+- Mint price: 0.000066 OKB / transistor (immutable after create)
 
-### Binding narrative
-Operator already runs OKX.AI ASP Agents (e.g. Market Signal Desk, Codex Evidence Lab). Remembrance Seal is the governance/manufacturing layer those Agents can use to seal action classes before execution.
-
-### Deliverables for judges
+### Deliverables
 - Live processor on TapeOut X Layer
-- ≥1 founding Remembrance Gate circuit taped out
-- Public GitHub (architecture, demo script, economics)
+- ≥1 founding Remembrance Gate taped out (`ALLOW-ONCE`)
+- Public GitHub: https://github.com/a18604585304-hub/remembrance-seal
 - Public X announcement
 
 ### Addresses (fill after deploy)
 - Processor contract: TBD
 - Deployer wallet: 0xa66f492f6f4a5a2b028f18355b63ce240940e0e5
-- Circuit / demo links: TBD
+- Circuit / TapeOut page: TBD
 
 ## X Account
 @blmario669
 
 ## Telegram
-(TBD — user fill)
+(TBD)
 
 ## Contact Email
-(TBD — user fill)
+842105620@qq.com
 
 ## GitHub Repository
-(TBD — after push)
+https://github.com/a18604585304-hub/remembrance-seal
 
 ## X Post Link
-(TBD — after publish)
+(TBD)
