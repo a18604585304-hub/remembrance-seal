@@ -21,7 +21,8 @@ Remembrance Seal @Ignixbot × TapeOut × X Layer
 不是空壳名。是可流片的权限原语。
 
 GitHub: https://github.com/a18604585304-hub/remembrance-seal  
-TapeOut: https://tapeout.net/#l2/xlayer/0x0dba1bcb8abdc1be2a0a2f9d9ddc745f32297239
+Processor: https://tapeout.net/#l2/xlayer/0x0dba1bcb8abdc1be2a0a2f9d9ddc745f32297239  
+Founding gate ALLOW-ONCE · TapeID 1.2.183
 
 #Ignix #TapeOut #XLayer #OKXAI
 

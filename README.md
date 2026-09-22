@@ -158,7 +158,7 @@ Remembrance Seal is the missing manufacturing / governance layer for those Agent
 | Create tx | `0x7dac2ac458781780d1786811486a425f36aaa76a97d21417696fba285f47659c` |
 | TapeOut page | https://tapeout.net/#l2/xlayer/0x0dba1bcb8abdc1be2a0a2f9d9ddc745f32297239 |
 | Explorer | https://www.oklink.com/xlayer/tx/0x7dac2ac458781780d1786811486a425f36aaa76a97d21417696fba285f47659c |
-| Circuit | `#1 ALLOW-ONCE` — 2-in / 1-out / 1 latch, gateCount 8 |
+| Circuit | `#1 ALLOW-ONCE` — TapeID **1.2.183** (2-in / 1-out / 1 latch, 8 gates) |
 | Circuit page | https://tapeout.net/#l2account/xlayer/0x0dba1bcb8abdc1be2a0a2f9d9ddc745f32297239/1 |
 | Tapeout tx | `0xa2999e72f48727f8682d1848f3141aa7f4e69c7aad00c749881f7f0ce3a82f24` |
 | GitHub | https://github.com/a18604585304-hub/remembrance-seal |
